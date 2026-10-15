@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (-) JobUnselected: {'identifier': 'rosorin_description'}
+[0.000126] (robot_gazebo) JobQueued: {'identifier': 'robot_gazebo', 'dependencies': OrderedDict()}
+[0.001109] (robot_gazebo) JobStarted: {'identifier': 'robot_gazebo'}
+[0.099853] (-) TimerEvent: {}
+[0.200047] (-) TimerEvent: {}
+[0.300236] (-) TimerEvent: {}
+[0.400449] (-) TimerEvent: {}
+[0.500731] (-) TimerEvent: {}
+[0.601166] (-) TimerEvent: {}
+[0.701529] (-) TimerEvent: {}
+[0.801717] (-) TimerEvent: {}
+[0.901934] (-) TimerEvent: {}
+[1.002153] (-) TimerEvent: {}
+[1.102358] (-) TimerEvent: {}
+[1.202573] (-) TimerEvent: {}
+[1.302761] (-) TimerEvent: {}
+[1.402934] (-) TimerEvent: {}
+[1.503138] (-) TimerEvent: {}
+[1.603378] (-) TimerEvent: {}
+[1.703589] (-) TimerEvent: {}
+[1.803803] (-) TimerEvent: {}
+[1.903978] (-) TimerEvent: {}
+[2.004153] (-) TimerEvent: {}
+[2.104420] (-) TimerEvent: {}
+[2.204665] (-) TimerEvent: {}
+[2.304825] (-) TimerEvent: {}
+[2.405028] (-) TimerEvent: {}
+[2.505207] (-) TimerEvent: {}
+[2.605482] (-) TimerEvent: {}
+[2.705727] (-) TimerEvent: {}
+[2.806018] (-) TimerEvent: {}
+[2.906247] (-) TimerEvent: {}
+[3.006476] (-) TimerEvent: {}
+[3.106673] (-) TimerEvent: {}
+[3.206824] (-) TimerEvent: {}
+[3.307404] (-) TimerEvent: {}
+[3.319498] (robot_gazebo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/build', '--no-deps', 'symlink_data'], 'cwd': '/home/thinhnguyen/EyeCodeEntry/build/robot_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('RUBBER_DUCK_AGENT', 'true'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('USER', 'thinhnguyen'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', ''), ('MACHINE_TYPE', 'ROSOrin_Mecanum'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thinhnguyen'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('GIT_CONFIG_COUNT', '3'), ('CYCLONEDDS_URI', 'file:///etc/cyclonedds/config.xml'), ('OLDPWD', '/home/thinhnguyen'), ('DESKTOP_SESSION', 'ubuntu'), ('COPILOT_CLI_RUN_AS_NODE', '1'), ('LIDAR_TYPE', 'MS200'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('need_compile', 'False'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1589'), ('COPILOT_CLI', '1'), ('SYSTEMD_EXEC_PID', '1899'), ('USE_TGREP', 'false'), ('SSH_ASKPASS', ''), ('ANTHROPIC_ADVISOR', 'false'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('USE_BUILTIN_RIPGREP', 'false'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2615'), ('COPILOT_HOME', '/home/thinhnguyen/.copilot'), ('GIT_OPTIONAL_LOCKS', '0'), ('COLCON_PREFIX_PATH', '/home/thinhnguyen/EyeCodeEntry/ros2_ws/install'), ('GCM_INTERACTIVE', 'Never'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thinhnguyen'), ('MASTER', '/'), ('VERSION', '|V1.0.0|App_ROS2_1.0|2025-05-29|'), ('JOURNAL_STREAM', '8:16168'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('SKILL_CHAR_BUDGET', '30000'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thinhnguyen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('DEPTH_CAMERA_TYPE', 'aurora'), ('WINDOWPATH', '2'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('PATH', '/opt/ros/humble/bin:/home/thinhnguyen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/share/code/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64'), ('SESSION_MANAGER', 'local/thinhnguyen-laptop:@/tmp/.ICE-unix/1875,unix/thinhnguyen-laptop:/tmp/.ICE-unix/1875'), ('INVOCATION_ID', '35aac22ee3e7493b808e690c451ecb0f'), ('GIT_CONFIG_VALUE_1', 'never'), ('CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP', '1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GIT_CONFIG_VALUE_2', ''), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/thinhnguyen/EyeCodeEntry/ros2_ws/install/rosorin_description:/home/thinhnguyen/EyeCodeEntry/ros2_ws/install/robot_gazebo:/opt/ros/humble'), ('COPILOT_AGENT_SESSION_ID', 'c122a14b-bccb-494b-a3bf-050820d1bb46'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:ca414431-786c-4280-be59-c16f7c4617f2'), ('COPILOT_RUNTIME_PROCESS_FILE_LOGGING', '1'), ('HOST', '/'), ('GIT_TERMINAL_PROMPT', '0'), ('MXC_BIN_DIR', '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_CONFIG_KEY_1', 'credential.interactive'), ('LC_MEASUREMENT', 'vi_VN'), ('GIT_CONFIG_KEY_2', 'core.fsmonitor'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('COPILOT_MCP_APPS', 'true'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thinhnguyen/EyeCodeEntry/build/robot_gazebo'), ('AUTO_APPROVAL', 'true'), ('MIC_TYPE', 'xf'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ASR_LANGUAGE', 'Chinese'), ('COPILOT_ENABLE_BUILTIN_GITHUB_MCP', 'true'), ('PYTHONPATH', '/home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/lib/python3.10/site-packages:/home/thinhnguyen/EyeCodeEntry/ros2_ws/build/rosorin_description:/home/thinhnguyen/EyeCodeEntry/ros2_ws/install/rosorin_description/lib/python3.10/site-packages:/home/thinhnguyen/EyeCodeEntry/ros2_ws/build/robot_gazebo:/home/thinhnguyen/EyeCodeEntry/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND'), ('VTE_VERSION', '6800')]), 'shell': False}
+[3.407536] (-) TimerEvent: {}
+[3.507928] (-) TimerEvent: {}
+[3.608335] (-) TimerEvent: {}
+[3.614726] (robot_gazebo) StdoutLine: {'line': b'running develop\n'}
+[3.708872] (-) TimerEvent: {}
+[3.809073] (-) TimerEvent: {}
+[3.815622] (robot_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[3.815769] (robot_gazebo) StdoutLine: {'line': b'creating robot_gazebo.egg-info\n'}
+[3.815932] (robot_gazebo) StdoutLine: {'line': b'writing robot_gazebo.egg-info/PKG-INFO\n'}
+[3.816112] (robot_gazebo) StdoutLine: {'line': b'writing dependency_links to robot_gazebo.egg-info/dependency_links.txt\n'}
+[3.816400] (robot_gazebo) StdoutLine: {'line': b'writing entry points to robot_gazebo.egg-info/entry_points.txt\n'}
+[3.816507] (robot_gazebo) StdoutLine: {'line': b'writing requirements to robot_gazebo.egg-info/requires.txt\n'}
+[3.816681] (robot_gazebo) StdoutLine: {'line': b'writing top-level names to robot_gazebo.egg-info/top_level.txt\n'}
+[3.816800] (robot_gazebo) StdoutLine: {'line': b"writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'\n"}
+[3.818957] (robot_gazebo) StdoutLine: {'line': b"reading manifest file 'robot_gazebo.egg-info/SOURCES.txt'\n"}
+[3.819945] (robot_gazebo) StdoutLine: {'line': b"writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'\n"}
+[3.821278] (robot_gazebo) StdoutLine: {'line': b'running build_ext\n'}
+[3.821479] (robot_gazebo) StdoutLine: {'line': b'Creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/lib/python3.10/site-packages/robot-gazebo.egg-link (link to .)\n'}
+[3.822867] (robot_gazebo) StdoutLine: {'line': b'Installing teleop_key_control script to /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/lib/robot_gazebo\n'}
+[3.825087] (robot_gazebo) StdoutLine: {'line': b'\n'}
+[3.825349] (robot_gazebo) StdoutLine: {'line': b'Installed /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo\n'}
+[3.825425] (robot_gazebo) StdoutLine: {'line': b'running symlink_data\n'}
+[3.825478] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/ament_index\n'}
+[3.825530] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/ament_index/resource_index\n'}
+[3.825582] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/ament_index/resource_index/packages\n'}
+[3.825860] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/resource/robot_gazebo -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/ament_index/resource_index/packages\n'}
+[3.825945] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/package.xml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo\n'}
+[3.825999] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[3.826050] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/spawn_model.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[3.826101] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/ros_ign_bridge.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[3.826151] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/spawn_objects.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[3.826201] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/room_worlds.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[3.826352] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/worlds.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[3.826402] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/spwan_model.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[3.826451] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[3.826500] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/urdf/lidar.gazebo.xacro -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[3.826548] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/urdf/wheel.xacro -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[3.826596] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/urdf/robot.gazebo.xacro -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[3.826787] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/urdf/camera.gazebo.xacro -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[3.826847] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/urdf/imu.gazebo.xacro -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[3.826895] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/config\n'}
+[3.826947] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/config/robot_config.yaml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/config\n'}
+[3.827012] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/config/nav2_params.yaml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/config\n'}
+[3.827070] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/config/slam.yaml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/config\n'}
+[3.827369] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/config/localization.yaml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/config\n'}
+[3.827460] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/worlds\n'}
+[3.827520] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/worlds/robocup_home.sdf -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/worlds\n'}
+[3.827576] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/worlds/empty.sdf -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/worlds\n'}
+[3.827633] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/rviz\n'}
+[3.827689] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/rviz/nav_nav2.rviz -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/rviz\n'}
+[3.827762] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/rviz/slam.rviz -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/rviz\n'}
+[3.828325] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/maps\n'}
+[3.828528] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/maps/map_01.yaml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/maps\n'}
+[3.828703] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/maps/map_01.pgm -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/maps\n'}
+[3.828888] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch/include\n'}
+[3.828944] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/include/slam.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch/include\n'}
+[3.829097] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/include/localization.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch/include\n'}
+[3.829165] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/include/navigation.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch/include\n'}
+[3.829337] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[3.829493] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bed.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[3.829555] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/sofa.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[3.829672] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/tea_table.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[3.829720] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bookshelft.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[3.829862] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/table.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[3.829941] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/chair.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[3.830004] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bottle.stl -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[3.830065] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/cupboard.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[3.830127] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/bed\n'}
+[3.830177] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bed/Carpet_Pattern_Squares_Multi.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/bed\n'}
+[3.830399] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bed/Wood_Bamboo.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/bed\n'}
+[3.830513] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft\n'}
+[3.830691] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bookshelft/Wood_Veneer_02.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft\n'}
+[3.830746] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/chair\n'}
+[3.830875] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/chair/Wood_Cherry_Original.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/chair\n'}
+[3.830919] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/cupboard\n'}
+[3.830959] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/cupboard/Wood_Veneer_02.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/cupboard\n'}
+[3.830999] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/sofa\n'}
+[3.831039] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/sofa/Carpet_Loop_Pattern.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/sofa\n'}
+[3.831079] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/table\n'}
+[3.831120] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/tea_table/Wood_Cherry_Original.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/table\n'}
+[3.831168] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/tea_table\n'}
+[3.831221] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/tea_table/Wood_Cherry_Original.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/tea_table\n'}
+[3.831274] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[3.831326] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/fingertip.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[3.831380] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/palm.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[3.831433] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/finger.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[3.831485] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/forearm.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[3.831536] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/base.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[3.831606] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/upperarm.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[3.831672] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/torso.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[3.831725] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models\n'}
+[3.831823] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/bookshelft.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models\n'}
+[3.831885] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/sofa.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models\n'}
+[3.831942] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/tea_table.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models\n'}
+[3.832000] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/bed.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models\n'}
+[3.832055] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/kai_standing.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models\n'}
+[3.832123] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/bed\n'}
+[3.832179] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/bottles\n'}
+[3.832233] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/bottles/red_bottle.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/bottles\n'}
+[3.832290] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/bottles/green_bottle.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/bottles\n'}
+[3.832345] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/cupboard\n'}
+[3.832403] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/cupboard/cupboard_0.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/cupboard\n'}
+[3.832446] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/cupboard/cupboard_1.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/cupboard\n'}
+[3.832485] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[3.832523] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/table/dinning_table_3.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[3.832563] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/table/dinning_table_1.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[3.832602] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/table/kitchen_table.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[3.832643] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/table/dinning_table_2.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[3.832684] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/table/dinning_table_0.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[3.832724] (robot_gazebo) StdoutLine: {'line': b'creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/chair\n'}
+[3.832811] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/chair/chair_1.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/chair\n'}
+[3.832853] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/chair/chair_3.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/chair\n'}
+[3.832897] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/chair/chair_2.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/chair\n'}
+[3.832937] (robot_gazebo) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/chair/chair_0.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/chair\n'}
+[3.888111] (robot_gazebo) CommandEnded: {'returncode': 0}
+[3.909169] (-) TimerEvent: {}
+[4.009347] (-) TimerEvent: {}
+[4.109532] (-) TimerEvent: {}
+[4.118145] (robot_gazebo) JobEnded: {'identifier': 'robot_gazebo', 'rc': 0}
+[4.118725] (-) EventReactorShutdown: {}

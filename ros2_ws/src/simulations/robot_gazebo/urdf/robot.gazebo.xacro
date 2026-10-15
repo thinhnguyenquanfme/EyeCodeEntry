@@ -16,10 +16,10 @@
 
     <gazebo>
         <!-- Joint state publisher -->
-        <plugin filename="$(find ign_ros2_control)/../../lib/libign_ros2_control-system.so" 
+        <!-- <plugin filename="$(find ign_ros2_control)/../../lib/libign_ros2_control-system.so" 
                 name="ign_ros2_control::IgnitionROS2ControlPlugin">
           <parameters>$(find robot_gazebo)/config/robot_config.yaml</parameters>
-        </plugin>
+        </plugin> -->
 
         <!-- joint -->
         <plugin filename="libignition-gazebo-joint-state-publisher-system.so" name="ignition::gazebo::systems::JointStatePublisher">

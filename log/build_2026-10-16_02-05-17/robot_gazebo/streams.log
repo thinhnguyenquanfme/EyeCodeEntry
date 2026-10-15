@@ -1,0 +1,111 @@
+[3.320s] Invoking command in '/home/thinhnguyen/EyeCodeEntry/build/robot_gazebo': PYTHONPATH=/home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/build --no-deps symlink_data
+[3.614s] running develop
+[3.815s] running egg_info
+[3.815s] creating robot_gazebo.egg-info
+[3.815s] writing robot_gazebo.egg-info/PKG-INFO
+[3.815s] writing dependency_links to robot_gazebo.egg-info/dependency_links.txt
+[3.815s] writing entry points to robot_gazebo.egg-info/entry_points.txt
+[3.816s] writing requirements to robot_gazebo.egg-info/requires.txt
+[3.816s] writing top-level names to robot_gazebo.egg-info/top_level.txt
+[3.816s] writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[3.818s] reading manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[3.819s] writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[3.820s] running build_ext
+[3.820s] Creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/lib/python3.10/site-packages/robot-gazebo.egg-link (link to .)
+[3.822s] Installing teleop_key_control script to /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/lib/robot_gazebo
+[3.824s] 
+[3.824s] Installed /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo
+[3.824s] running symlink_data
+[3.824s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/ament_index
+[3.824s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/ament_index/resource_index
+[3.824s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/ament_index/resource_index/packages
+[3.825s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/resource/robot_gazebo -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/ament_index/resource_index/packages
+[3.825s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/package.xml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo
+[3.825s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch
+[3.825s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/spawn_model.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch
+[3.825s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/ros_ign_bridge.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch
+[3.825s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/spawn_objects.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch
+[3.825s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/room_worlds.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch
+[3.825s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/worlds.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch
+[3.825s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/spwan_model.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch
+[3.825s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf
+[3.825s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/urdf/lidar.gazebo.xacro -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf
+[3.825s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/urdf/wheel.xacro -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf
+[3.825s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/urdf/robot.gazebo.xacro -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf
+[3.826s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/urdf/camera.gazebo.xacro -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf
+[3.826s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/urdf/imu.gazebo.xacro -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/urdf
+[3.826s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/config
+[3.826s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/config/robot_config.yaml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/config
+[3.826s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/config/nav2_params.yaml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/config
+[3.826s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/config/slam.yaml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/config
+[3.826s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/config/localization.yaml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/config
+[3.826s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/worlds
+[3.826s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/worlds/robocup_home.sdf -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/worlds
+[3.826s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/worlds/empty.sdf -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/worlds
+[3.827s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/rviz
+[3.827s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/rviz/nav_nav2.rviz -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/rviz
+[3.827s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/rviz/slam.rviz -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/rviz
+[3.827s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/maps
+[3.828s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/maps/map_01.yaml -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/maps
+[3.828s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/maps/map_01.pgm -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/maps
+[3.828s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch/include
+[3.828s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/include/slam.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch/include
+[3.828s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/include/localization.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch/include
+[3.828s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/launch/include/navigation.launch.py -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/launch/include
+[3.828s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes
+[3.828s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bed.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes
+[3.829s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/sofa.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes
+[3.829s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/tea_table.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes
+[3.829s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bookshelft.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes
+[3.829s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/table.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes
+[3.829s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/chair.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes
+[3.829s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bottle.stl -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes
+[3.829s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/cupboard.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes
+[3.829s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/bed
+[3.829s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bed/Carpet_Pattern_Squares_Multi.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/bed
+[3.829s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bed/Wood_Bamboo.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/bed
+[3.830s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+[3.830s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/bookshelft/Wood_Veneer_02.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+[3.830s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/chair
+[3.830s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/chair/Wood_Cherry_Original.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/chair
+[3.830s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+[3.830s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/cupboard/Wood_Veneer_02.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+[3.830s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+[3.830s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/sofa/Carpet_Loop_Pattern.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+[3.830s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/table
+[3.830s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/tea_table/Wood_Cherry_Original.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/table
+[3.830s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+[3.830s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/tea_table/Wood_Cherry_Original.jpg -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+[3.830s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[3.830s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/fingertip.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[3.830s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/palm.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[3.830s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/finger.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[3.830s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/forearm.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[3.830s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/base.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/upperarm.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/meshes/wpr1/torso.dae -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[3.831s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/bookshelft.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/sofa.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/tea_table.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/bed.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/kai_standing.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models
+[3.831s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/bed
+[3.831s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/bottles
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/bottles/red_bottle.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/bottles
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/bottles/green_bottle.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/bottles
+[3.831s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/cupboard
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/cupboard/cupboard_0.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/cupboard
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/cupboard/cupboard_1.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/cupboard
+[3.831s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/table/dinning_table_3.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/table/dinning_table_1.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table
+[3.831s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/table/kitchen_table.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table
+[3.832s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/table/dinning_table_2.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table
+[3.832s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/table/dinning_table_0.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/table
+[3.832s] creating /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/chair
+[3.832s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/chair/chair_1.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/chair
+[3.832s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/chair/chair_3.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/chair
+[3.832s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/chair/chair_2.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/chair
+[3.832s] symbolically linking /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/models/chair/chair_0.model -> /home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/share/robot_gazebo/models/chair
+[3.889s] Invoked command in '/home/thinhnguyen/EyeCodeEntry/build/robot_gazebo' returned '0': PYTHONPATH=/home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thinhnguyen/EyeCodeEntry/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thinhnguyen/EyeCodeEntry/build/robot_gazebo/build --no-deps symlink_data

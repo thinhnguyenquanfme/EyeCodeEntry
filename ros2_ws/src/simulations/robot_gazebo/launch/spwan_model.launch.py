@@ -52,16 +52,16 @@ def launch_setup(context):
     )
 
     # 添加控制器管理器节点 - 这是关键缺失部分
-    controller_manager_node = Node(
-        package='controller_manager',
-        executable='ros2_control_node',
-        parameters=[
-            {'robot_description': robot_description_content},
-            controller_config_file
-        ],
-        output='screen',
-        condition=IfCondition(sim_ign)  # 只在仿真时启动
-    )
+    # controller_manager_node = Node(
+    #     package='controller_manager',
+    #     executable='ros2_control_node',
+    #     parameters=[
+    #         {'robot_description': robot_description_content},
+    #         controller_config_file
+    #     ],
+    #     output='screen',
+    #     condition=IfCondition(sim_ign)  # 只在仿真时启动
+    # )
 
     joint_state_publisher_node = Node(
         package='joint_state_publisher',
@@ -76,12 +76,12 @@ def launch_setup(context):
         ],
     )
 
-    joint_state_broadcaster_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
-        output="screen",
-    )
+    # joint_state_broadcaster_spawner = Node(
+    #     package="controller_manager",
+    #     executable="spawner",
+    #     arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+    #     output="screen",
+    # )
 
     static_transform_publisher_node = Node(
         package='tf2_ros',
@@ -118,20 +118,10 @@ def launch_setup(context):
         use_sim_time_arg,
         world_name_arg,
 
-        # 首先启动控制器管理器
-        controller_manager_node,
-        
         # 然后启动其他节点
         joint_state_publisher_node,
         robot_state_publisher_node,
 
-        # 在 Ignition 实体生成后启动控制器
-        RegisterEventHandler(
-            event_handler=OnProcessExit(
-                target_action=ignition_spawn_entity,
-                on_exit=[joint_state_broadcaster_spawner],
-            )
-        ),
         ignition_spawn_entity,
     ]
 

@@ -254,7 +254,7 @@ plugin.
 ## 13. References
 
 - [ROS 2 Humble documentation](https://docs.ros.org/en/humble/)
-- [Hiwonder ROSOrin Pro User Manual] (https://wiki.hiwonder.com/projects/rosorin-pro/en/latest/docs/)
+- [Hiwonder ROSOrin Pro User Manual](https://wiki.hiwonder.com/projects/rosorin-pro/en/latest/docs/)
 - [Nav2 documentation](https://docs.nav2.org/)
 - [SLAM Toolbox](https://github.com/SteveMacenski/slam_toolbox)
 - `robot_gazebo/urdf/lidar.gazebo.xacro` — simulated LiDAR settings.

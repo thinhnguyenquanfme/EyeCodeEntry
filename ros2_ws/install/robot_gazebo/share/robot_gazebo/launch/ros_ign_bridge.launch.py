@@ -1,1 +1,0 @@
-/home/thinhnguyen/EyeCodeEntry/ros2_ws/build/robot_gazebo/launch/ros_ign_bridge.launch.py

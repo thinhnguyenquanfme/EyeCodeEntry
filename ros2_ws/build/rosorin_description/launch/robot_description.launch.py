@@ -1,1 +1,0 @@
-/home/thinhnguyen/EyeCodeEntry/ros2_ws/src/simulations/rosorin_description/launch/robot_description.launch.py

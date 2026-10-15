@@ -1,1 +1,0 @@
-/home/thinhnguyen/EyeCodeEntry/ros2_ws/src/simulations/robot_gazebo/launch/spwan_model.launch.py
